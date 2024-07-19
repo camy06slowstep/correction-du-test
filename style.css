@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+button{
+    background-color: rgb(211, 145, 59);
+    color: rgb(225, 225, 119);
+    font-size: 39px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+  }
+
+ form{
+    height: 600px;
+    width: 400px;
+    background-color: black;
+   border: 5px solid red;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-areas: 
+   "saisie saisie saisie saisie"
+  "dell plus-moins mod div"
+  "sept huit  neuf  fois"
+  "quatre cinq six moins"
+  "un deux trois plus"
+  "zero zero virgule egale";
+  }
+  .btn{
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  #dell{
+    grid-area: dell;
+    color: black;
+    background-color: aliceblue;
+  }
+  #plus-moins{
+    grid-area: plus-moins;
+    color: black;
+    background-color: aliceblue;
+  }
+  #mod{
+    grid-area: mod;
+    color: black;
+    background-color: aliceblue;
+  }
+  #div{
+    grid-area: div;
+    color: white;
+    background-color: orange;
+  }
+  #sept{
+    grid-area: sept;
+  }
+  #huit{
+    grid-area: huit;
+  }
+  #neuf{
+    grid-area: neuf;
+  }
+  #fois{
+    grid-area: fois;
+    color: white;
+    background-color: orange;
+  }
+  #quatre{
+    grid-area: quatre;
+  }
+  #cinq{
+    grid-area: cinq;
+  }
+  #six{
+    grid-area: six;
+  }
+  #moins{
+    grid-area: moins;
+    color: white;
+    background-color: orange;
+  }
+  #un{
+    grid-area: un;
+  }
+  #deux{
+    grid-area: deux;
+  }
+  #trois{
+    grid-area: trois;
+  }
+  #plus{ 
+    grid-area: plus;
+    color: white;
+    background-color: orange;
+  }
+  #zero{
+    grid-area: zero;
+    border-radius: 25%;
+    width: 180px;
+    height: 100px;
+  }
+  #zero{
+    grid-area: zero;
+  }
+  #virgule{
+    grid-area: virgule;
+  }
+  #egale{
+    grid-area: egale;
+    color: white;
+    background-color: orange;
+  }
+  .saisie{
+    grid-area: saisie;
+    color: white;
+    font-size: 50px;
+    border: 2px solid white;
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 350px;
+    height: ;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+  }
